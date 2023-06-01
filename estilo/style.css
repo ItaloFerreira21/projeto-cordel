@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    :root {
+        --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2: 'Times New Roman', Times, serif;
+        --fonte3: 'Sriracha', cursive;
+    }
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+      
+}
+ header h1 {
+    color: white;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    
+ }
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+color: white;
+font-weight: bolder;
+text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
+}
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: papayawhip;
+    color: black;
+
+
+}
+
+
+section.imagem {
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+section.imagem p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.221);
+    font-family: 'Sriracha', cursive;
+    font-size: 4.3vw;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.352);
+    
+    
+
+}
+
+section.imagem2 {
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+section.imagem2 p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.221);
+    font-family: 'Sriracha', cursive;
+    font-size: 4.3vw;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
